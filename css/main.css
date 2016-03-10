@@ -1,0 +1,22 @@
+header {
+  border-top: solid 1px	gray;
+  border-left: solid 1px gray; }
+  header img {
+    zoom: 0.5; }
+  header .row {
+    padding: 20px 0; }
+
+.baner {
+  background-image: url("../images/baner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; }
+  .baner .opacity {
+    background-color: rgba(101, 101, 100, 0.6);
+    background-size: cover;
+    height: 500px; }
+  .baner .container {
+    padding: 150px 0; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+$height-baner: 500px;
+
+header {
+  border-top: solid 1px	gray;
+  border-left:solid 1px gray;
+  img {
+    zoom:0.5;
+  }
+  .row{
+  	padding: 20px 0;
+  }
+}
+.baner{
+	background-image: url("../images/baner.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:$height-baner;
+	
+	.opacity{
+		background-color:rgba(101, 101, 100,0.6);	
+		background-size:cover;
+		height: $height-baner;	
+	}
+	.container{
+		padding:150px 0;
+		
+	}
+	
+}
