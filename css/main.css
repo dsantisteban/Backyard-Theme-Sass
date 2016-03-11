@@ -1,22 +1,91 @@
-header {
-  border-top: solid 1px	gray;
-  border-left: solid 1px gray; }
-  header img {
-    zoom: 0.5; }
-  header .row {
-    padding: 20px 0; }
+body {
+  font-family: 'Lato', sans-serif; }
+
+header img {
+  zoom: 0.5;
+  padding: 5% 0%; }
+header nav ul {
+  padding: 3% 0%;
+  font-size: 85%; }
+  header nav ul li a {
+    font-size: 1.5em;
+    margin-left: 5%;
+    color: #9AA2A2; }
 
 .baner {
-  background-image: url("../images/baner.jpg");
-  background-size: cover;
-  background-position: center;
+  padding: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
   background-repeat: no-repeat;
-  height: 500px; }
-  .baner .opacity {
-    background-color: rgba(101, 101, 100, 0.6);
-    background-size: cover;
-    height: 500px; }
-  .baner .container {
-    padding: 150px 0; }
+  background-size: 139% 122%;
+  background-position: 50% 60%;
+  background-image: url("../images/baner.jpg");
+  color: white; }
+  .baner h1 {
+    font-size: 3em;
+    font-weight: 300;
+    margin-bottom: 2%; }
+  .baner p {
+    line-height: 1.7;
+    margin-right: 10%; }
+  .baner h5 i {
+    margin-left: 3%;
+    margin-right: 1%; }
+  .baner a.button:nth-child(3) {
+    background-color: #3CB1F7;
+    color: white; }
+
+a.button {
+  border: 1px solid #3CB1F7;
+  width: 100px;
+  padding: 2%;
+  border-radius: 22px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 1%;
+  margin-left: 0; }
+
+a.equal {
+  color: #3CB1F7; }
+
+#optimize {
+  padding: 10% 0 5%;
+  color: #8F8E8D; }
+  #optimize h1 {
+    margin-top: 0;
+    font-weight: 300; }
+  #optimize p {
+    margin-right: 10%;
+    line-height: 1.7; }
+    #optimize p span {
+      color: #3CB1F7;
+      font-weight: 700; }
+
+#recreate {
+  padding: 5% 0 0 0;
+  color: #8F8E8D;
+  background-color: #F6F6F6; }
+  #recreate img {
+    margin-top: 5%; }
+  #recreate .row p {
+    margin-bottom: 10%; }
+  #recreate .col-md-4 p {
+    line-height: 1.7;
+    margin-right: 31%; }
+  #recreate .col-md-4 p:nth-child(2) {
+    margin-bottom: 33%; }
+
+footer {
+  padding: 3% 0; }
+  footer ul li i {
+    width: 30px;
+    height: 30px;
+    color: #3CB1F7;
+    border-radius: 50px;
+    border: 1px solid #3CB1F7;
+    padding: 29%; }
+  footer p a {
+    color: #3CB1F7;
+    font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
